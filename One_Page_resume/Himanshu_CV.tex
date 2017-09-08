@@ -38,7 +38,7 @@
 % \usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
 %\usepackage{fullpage}
 \usepackage{geometry}
-\geometry{a4paper,margin=1.25cm}
+\geometry{a4paper,margin=0.85cm}
 %\geometry{a4paper,left=20mm, top=20mm}
  %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
@@ -103,12 +103,12 @@
 \begin{tabular}{r|p{16cm}}	
 \normalsize{2013-2018} & \small{B.Tech and M.Tech (Dual Degree) in} \textsc{\small{Computer Science and Engineering}}\\
 \textsc{\normalsize{(Expected)}}&\small{\textbf{Indian Institute of Technology}, Kharagpur}\\
-&\textbf{Courses: }\small{{Deep Learning, Machine Learning, Artificial Intelligence, Parallel \& Distributed Algorithms, Operating Systems, Database Management Systems, Computer Networks, Information Retrieval, Speech \& Natural Language Processing, Compilers, Software Engineering, Algorithms-I \& II, Discrete Structures}}\\
+&\textbf{Relevant Courses: }\small{{Deep Learning, Machine Learning, Artificial Intelligence, Operating Systems, Database Management Systems, Computer Networks, Information Retrieval, Speech \& Natural Language Processing, Compilers, Software Engineering, Algorithms-I \& II, Discrete Structures}}\\
 
-\vspace{-7pt}
-&\\
-\normalsize{2013}& \small{Class XII,} \textsc{}\textsc{\small{Central Board of Secondary Education (CBSE)}} \\
-&\small{\textbf{Central Academy School}, Gwalior}\\
+%\vspace{-7pt}
+%&\\
+%\normalsize{2013}& \small{Class XII,} \textsc{}\textsc{\small{Central Board of Secondary Education (CBSE)}} \\
+%&\small{\textbf{Central Academy School}, Gwalior}\\
 
 
 % %------------------------------------------------
@@ -123,17 +123,25 @@
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
-\section{\large{Work Experience/Internship}}
+\section{\large{Internship/Full Time Offers}}
 
 \begin{tabular}{r|p{16cm}}
+\vspace*{5pt}
+\textsc{\normalsize{Aug 2017}} & \textbf{\normalsize{Pre-Placement Offer from Adobe Systems, Bangalore (Member of Technical Staff)}}\\
+\textsc{\normalsize{July 2017}} & \textbf{\normalsize{Bidding on Low Impression Keywords in Paid Search Advertising}}\\
+\textsc{\normalsize{May 2017}} & \small{Product Intern at} \textsc{Adobe Systems}\small{, Bangalore}\\
+& \footnotesize{- Adobe has an algorithmic bidding system which helps clients to find the right bid, predict the cost incurred and returns fetched.}\\
+& \footnotesize{- All keywords do not have enough historical data to come up with predictions which limits the bidding system's coverage and poses a risk of not getting clicks when placing bids on these keywords.}\\
+& \footnotesize{- Minimised this risk and increased the coverage by building a model which finds the probability of getting clicks on sparse keywords.}
+\multicolumn{2}{c}{}\\
 
 \textsc{\normalsize{Jun 2016}} & \textbf{\normalsize{Building Knowledge Base using Unstructured Data}}\\
 \textsc{\normalsize{May 2016}} & \small{Software Development Intern at} \textsc{Flipkart}\small{, Bangalore}\\
-
-& \footnotesize{- Preprocessed the whole dataset which includes cleaning of dataset \& and restructuring it into specific manner.}\\
-& \footnotesize{- Proposed a domain specific chunking grammar, used along with various open information extractor tools like ReVerb, Ollie, Stanford CoreNLP to extract the phrases from each sentence. Used Word2Vec model to produce word embeddings.}\\
-& \footnotesize{- Used skip-thought vectors for finding semantically and syntactically same sentences and then used Hierarchical Agglomerative Clustering (HAC) method to cluster them.}\\
+%& \footnotesize{- Preprocessed the whole dataset which includes cleaning of dataset \& and restructuring it into specific manner.}\\
+& \footnotesize{- Proposed a domain specific chunking grammar, which was used along with various open information extractor tools like ReVerb, Ollie, Stanford CoreNLP to extract the phrases from each sentence.}\\
+& \footnotesize{- Used word2Vec model to produce word embedding and then used Hierarchical Agglomerative Clustering (HAC) method to cluster them.}\\
 \multicolumn{2}{c}{} \\
+
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -144,10 +152,19 @@
 
 \begin{tabular}{r|p{16cm}}
 
+%\textsc{\normalsize{Sep 2017}} & \textbf{\normalsize{Automatic Colorization of Grayscale Images}}\\
+% \textsc{\normalsize{Feb 2016}} & \small{\textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}}\\
+%\textsc{\normalsize{Aug 2017}} & \footnotesize{- Pre-processed the data-set which includes fundus and OCT images by removing redundant information and created a Convolutional Neural Network (CNN) that learns and classifies images in different category based on severity of disease. }\\
+%\multicolumn{2}{c}{} \\
+
+\textsc{\normalsize{Mar 2017}} & \textbf{\normalsize{Detection of Diabetic Retinopathy in Eye Images}}\\
+% \textsc{\normalsize{Feb 2016}} & \small{\textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}}\\
+\textsc{\normalsize{Sep 2016}} & \footnotesize{- Pre-processed the data-set which includes fundus and OCT images by removing redundant information and created a Convolutional Neural Network (CNN) that learns and classifies images in different category based on severity of disease. }\\
+\multicolumn{2}{c}{} \\
+
 \textsc{\normalsize{Nov 2016}} & \textbf{\normalsize{Song Lyrics Generation using Neural Networks}}\\
 % \textsc{\normalsize{Feb 2016}} & \small{\textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}}\\
 \textsc{\normalsize{Aug 2016}} & \footnotesize{- Built a database of song lyrics and used tensorflow to create a Long Short Term Memory (LSTM) neural network that works on a word-level language model which learns the artists’ styles of writing, including words, rhymes, chorus, etc. }\\
-& \footnotesize{- tf-idf variance and assonance rhyme density measures were used to evaluate the model.}\\
 \multicolumn{2}{c}{} \\
 
 \textsc{\normalsize{Apr 2016}} & \textbf{\normalsize{Link Prediction using Apache Spark}} \\
@@ -159,16 +176,8 @@
 
 \textsc{\normalsize{Mar 2016}} & \textbf{\normalsize{Academia - Course Management System}}\\
 % \textsc{\normalsize{Feb 2016}} & \small{\textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}}\\
-\textsc{\normalsize{Feb 2016}} & \footnotesize{- Built a complete course management system that supported authentication \& authorization, User Access Control for 4 different types of users, calendar support and all major features one can expect from a CMS including faculty management, course progression, self-evaluated tests etc. }\\
-& \footnotesize{- The complete workflow was built using the LAMP stack. Twitter Bootstrap was utilised for making the site fully responsive.}\\
+\textsc{\normalsize{Feb 2016}} & \footnotesize{- Built a complete course management system that supported authentication \& authorization, User Access Control for 4 different types of users, calendar support and all major features one can expect from a CMS. }\\
 \multicolumn{2}{c}{} \\
-
-% \textsc{Nov 2015} & \textbf{Identifying Code Switching in Tweets} \\
-% \textsc{Aug 2015} & \small{\textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}}\\
-% & \footnotesize{- Used CRF (Conditional Random Field) for language tagging.)}\\
-% & \footnotesize{- Used Maximum-Entropy Model and Decision Tree Model by giving them some features to identifying the point is Code Switched or not.}\\
-% & \footnotesize{- Test our data on more than (0.1 million + lines) considering all the language change points as Switch point.} \\
-% \multicolumn{2}{c}{} \\
 
 \textsc{\normalsize{Nov 2015}} & \textbf{\normalsize{Compiler for Tiny C (A Subset of C Language)}}\\
 % \textsc {\normalsize{Aug 2015}} & \small{\textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}}\\
@@ -178,8 +187,7 @@
 
 \textsc{\normalsize{Apr 2015}} & \textbf{\normalsize{Restaurant Automation System}}\\
 % \textsc {\normalsize{Mar 2015}} & \small{\textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}}\\
-\textsc {\normalsize{Mar 2015}} & \footnotesize{- Developed a software built using JAVA Swing for a Restaurant Automation System which handles and automates the requests of the management and customers. Documented the software(SRS,SA/SD,UML,Test-Suite),which involved using UML case tools.}\\
-& \footnotesize{- Separate records were maintained for handling the tasks and SQL was used for interfacing with the database. Key features included managing stocks, generate monthly sales receipt etc.}\\
+\textsc {\normalsize{Mar 2015}} & \footnotesize{- Developed a software built using JAVA Swing for a Restaurant Automation System which handles and automates the requests of the management and customers. Documented the software (SRS,SA/SD,UML,Test-Suite),which involved using UML case tools.}\\
 % & \footnotesize{- }\\
 \multicolumn{2}{c}{} \\
 \end{tabular}
@@ -192,10 +200,9 @@
 
 \begin{tabular}{r|p{16cm}}
 \textsc{\normalsize{Programming}} 
-& {\itshape{\small{Proficient:}}} \small{C, C++} \\
-& {\itshape{\small{Familiar with:}}} \small{Python, Java, JavaScript, Scala} \\
-\textsc{\normalsize{Libraries/Databases}} & \small{Tensorflow, MySQL}\\
-\textsc{\normalsize{Frameworks}} & \small{Apache Spark, BootStrap, AngularJS}\\
+& {\itshape{\small{Proficient in }}} \small{C, C++, }{\itshape{\small{competent in }}} \small{Python, Java and }{\itshape{\small{Familiar with }}} \small{{Scala, Javascript}} \\
+\textsc{\normalsize{Libraries/Frameworks}} & \small{TensorFlow, scikit-learn, pandas, Node.js, AngularJS, Express}\\
+\textsc{\normalsize{Databases}} & \small{MySQL, MongoDB}\\
 \textsc{\normalsize{Markup/Templating}} & \small{HTML, CSS, \LaTeX}\\
 \textsc{\normalsize{Software \& Tools}} & \small{StarUML, Netbeans ID, Eclipse}\\
 \textsc{\normalsize{Systems/Platforms}} & \small{Git, Microsoft Windows, Linux(Ubuntu)}\\
@@ -206,11 +213,9 @@
 %----------------------------------------------------------------------------------------
 
 \section{\large{Scholastic Achievements}}
-
-
 \small{- Stood amongst top 2.6\% participants (rank 150) in the \textbf{Google APAC 2017 University Test} - Round B. Handle - \textbf{\textit{lannister}}}.\\
-\small{- Team \textbf{\textbf{Curious\_moles}} qualified for the onsite round and stood amongst top 20\% participants in the \textbf{ACM-ICPC'16} held at Coimbatore.} \\
-\small{- Ranked in Top 5\% (amongst 150,000 candidates) in Joint Entrance Examination conducted by Indian Institute of Technology.} 
+\small{- Team \textbf{\textbf{Curious\_moles}} qualified for the onsite round and stood amongst top 20\% participants in the \textbf{ACM-ICPC'16} held at Coimbatore.}
+%\small{- Ranked in Top 5\% (amongst 150,000 candidates) in Joint Entrance Examination conducted by Indian Institute of Technology.} 
 %\small{- Ranked in the State-wise Top 1\% (amongst 70,000 candidates) in State level Engineering Competitive Exam (MP PET).}
 
 
